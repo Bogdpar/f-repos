@@ -1,0 +1,59 @@
+@import '../../../../styles/mixin.scss';
+.orange {
+  background-color: orangered;
+  border-radius: 25px;
+  @include respond-to(sm) {
+    margin: 0 auto;
+  }
+}
+.rightWindow {
+  font-family: 'Afacad Flux';
+  font-size: 17px;
+  width: 330px;
+  height: 300px;
+  border-radius: 25px;
+  background-color: #fff;
+  padding-bottom: 20px;
+  .rightImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      margin-top: 15px;
+      border-radius: 25px;
+    }
+    .rightFire {
+      margin-right: 220px;
+      margin-top: 10px;
+      color: orangered;
+    }
+    .rightBody {
+      margin: 0px 15px 0px 15px;
+      h3 {
+        margin: 0px;
+      }
+    }
+  }
+  .rightData {
+    margin-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(4deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  &:hover {
+    animation: rotate 2s;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.detectIndentation": false,
+  "prettier.bracketSpacing": false,
+  "prettier.bracketSameLine": false,
+  "prettier.enable": true,
+  "prettier.endOfLine": "lf",
+  "prettier.jsxSingleQuote": true
+}

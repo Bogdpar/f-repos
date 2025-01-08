@@ -1,0 +1,15 @@
+@import '../../../styles/mixin.scss';
+.scroll {
+  margin-left: 15px;
+  width: 95%;
+  h1 {
+    margin-bottom: 10px;
+    color: white;
+  }
+  @include respond-to(md) {
+    display: none;
+  }
+  @include respond-to(sm) {
+    display: none;
+  }
+}

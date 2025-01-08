@@ -1,0 +1,17 @@
+.butt {
+  padding-bottom: 20px;
+  button {
+    border-radius: 5px;
+    color: white;
+    width: 70px;
+    height: 50px;
+    border: none;
+    background-color: #272b30;
+    &:hover {
+      background-color: #353a41;
+    }
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}

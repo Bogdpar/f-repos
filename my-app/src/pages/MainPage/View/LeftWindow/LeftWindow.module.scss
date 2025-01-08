@@ -1,0 +1,53 @@
+@import '../../../../styles/mixin.scss';
+.leftWindow {
+  background-image: url('../../../../../public/2.webp');
+  width: 700px;
+  height: 300px;
+  border-radius: 25px;
+  font-family: 'Afacad Flux';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 20px;
+  .title {
+    margin-top: 5px;
+    h1 {
+      margin: 0px;
+    }
+    font-size: 20px;
+    padding-left: 30px;
+  }
+  .descrip {
+    width: 600px;
+    margin-top: 5px;
+    p {
+      margin: 0px;
+    }
+    font-weight: 300;
+    padding-left: 30px;
+  }
+  .data {
+    margin-top: 5px;
+    padding-left: 30px;
+  }
+  @include respond-to(md) {
+    .title {
+      padding-left: 10px;
+    }
+    .descrip {
+      width: 400px;
+      padding-left: 10px;
+    }
+    .data {
+      padding-left: 10px;
+    }
+  }
+  @include respond-to(sm) {
+    margin: 0 auto;
+    width: 400px;
+    .descrip {
+      width: 200px;
+    }
+  }
+}

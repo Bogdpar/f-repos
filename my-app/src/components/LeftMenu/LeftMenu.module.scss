@@ -1,0 +1,56 @@
+@import '../../styles/mixin.scss';
+.wraper {
+    position: fixed;
+    background-color: #1f2226;
+    width: 100px;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .subWrap {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        cursor: pointer;
+        padding: 10px;
+        background-color: #1f2226;
+        margin: 10px;
+        color: #5d5f62;
+        border: none;
+        border-radius: 10px;
+        &:hover {
+            transition: 0.3s;
+            color: white;
+            background-color: #282b30;
+        }
+        &:active {
+            opacity: 0.6;
+        }
+    }
+    @include respond-to(md) {
+        width: 80px;
+        .btn {
+            padding: 9px;
+            font-size: 14px;
+        }
+    }
+    @include respond-to(sm) {
+        width: 60px;
+        .btn {
+            padding: 8px;
+            font-size: 12px;
+        }
+    }
+}
+.active {
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: #282b30;
+}

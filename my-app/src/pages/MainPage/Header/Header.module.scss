@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import '../../../styles/mixin.scss';
+.wraper {
+  margin-left: 10px;
+  color: white;
+  font-family: 'Afacad Flux';
+  h1 {
+    margin: 0;
+    padding: 20px 0px 10px 10px;
+  }
+  .btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #282b30;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    &:hover {
+      transition: 0.3s;
+      color: white;
+      background-color: #f37515;
+    }
+    &:active {
+      opacity: 0.6;
+    }
+  }
+  @include respond-to(sm) {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      text-align: center;
+    }
+  }
+}
+.active_btn {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f37515;
+  margin: 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  &:hover {
+    transition: 0.3s;
+    color: white;
+    background-color: #f37515;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}

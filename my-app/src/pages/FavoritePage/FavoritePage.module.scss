@@ -1,0 +1,14 @@
+.title {
+  display: flex;
+  justify-content: center;
+  h1 {
+    color: white;
+  }
+}
+.wraper {
+  max-width: 1170px;
+  width: 100%;
+  margin-left: 120px;
+  display: flex;
+  flex-wrap: wrap;
+}

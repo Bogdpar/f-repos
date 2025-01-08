@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import '../../../styles/mixin.scss';
+.wraper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+  @include respond-to(sm) {
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+  }
+}

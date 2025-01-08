@@ -1,0 +1,32 @@
+@import '../../../styles/mixin.scss';
+.loader {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wraper {
+  margin-left: 15px;
+  .title {
+    color: white;
+    font-weight: 200;
+  }
+  .slider {
+    margin-left: 15px;
+    width: 1060px;
+  }
+  @include respond-to(md) {
+    .slider {
+      width: 800px;
+    }
+  }
+  @include respond-to(sm) {
+    .slider {
+      display: none;
+    }
+    .title {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import '../../../styles/mixin.scss';
+.head {
+  margin-top: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  h1 {
+    color: white;
+  }
+  button {
+    font-size: 17px;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    height: 45px;
+    color: white;
+    background-color: #f37515;
+    &:hover {
+      background-color: #f7852f;
+    }
+    &:active {
+      opacity: 0.8;
+    }
+  }
+  @include respond-to(md) {
+    .head {
+      width: 70%;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    button {
+      font-size: 19px;
+      width: 160px;
+      height: 50px;
+    }
+  }
+  @include respond-to(sm) {
+    h1 {
+      font-size: 50px;
+    }
+    button {
+      margin-left: 10px;
+      font-size: 23px;
+      width: 180px;
+      height: 60px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import '../../../../../styles/mixin.scss';
+.wraper {
+  .wra {
+    border-radius: 10px;
+    background-color: #272b30;
+    margin-left: 15px;
+    border: 1px solid gray;
+    min-height: 40px;
+    height: auto;
+    width: 800px;
+    margin-bottom: 15px;
+    .comment {
+      padding: 10px;
+      color: white;
+      h3 {
+        margin: 0px;
+      }
+      p {
+        margin: 0px;
+      }
+    }
+  }
+  @include respond-to(md) {
+    .wra {
+      width: 600px;
+    }
+  }
+  @include respond-to(sm) {
+    .wra {
+      width: 400px;
+    }
+  }
+}

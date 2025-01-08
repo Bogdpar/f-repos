@@ -1,0 +1,46 @@
+@import '../../../../styles/mixin.scss';
+.wraper {
+  padding: 5px;
+  border: 2px solid transparent;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  .img {
+    img {
+      height: 140px;
+      width: 250px;
+      border-radius: 15px;
+    }
+  }
+  .data {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      color: white;
+      font-weight: 400;
+    }
+    span {
+      color: #636568;
+    }
+  }
+  &:hover {
+    transition: 0.3s;
+    border: 2px white solid;
+    border-radius: 10px;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+  @include respond-to(md) {
+    width: 200px;
+    .img {
+      img {
+        width: 200px;
+        height: 120px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

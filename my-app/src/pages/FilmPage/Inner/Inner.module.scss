@@ -1,0 +1,79 @@
+@import '../../../styles/mixin.scss';
+.inner {
+  display: flex;
+  gap: 50px;
+  .player {
+    margin-left: 15px;
+    iframe {
+      border-radius: 20px;
+    }
+  }
+  @include respond-to(md) {
+    .player {
+      iframe {
+        width: 500px;
+      }
+    }
+  }
+  @include respond-to(sm) {
+    flex-direction: column;
+    gap: 20px;
+    .player {
+      iframe {
+        width: 400px;
+      }
+    }
+  }
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  .wra {
+    background-color: orangered;
+    border-radius: 25px;
+    height: 370px;
+  }
+  .subWra {
+    font-family: 'Afacad Flux';
+    font-size: 17px;
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    .title {
+      h2 {
+        margin: 0px;
+      }
+      padding: 15px;
+    }
+    .body {
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        color: #f37515;
+        margin: 5px;
+      }
+      .bodyItem {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(4deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+    &:hover {
+      animation: rotate 2s;
+    }
+  }
+}

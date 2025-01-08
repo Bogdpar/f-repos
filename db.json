@@ -1,0 +1,446 @@
+{
+  "0": [
+    {
+      "id": "0"
+    }
+  ],
+  "1": [
+    {
+      "img": "/comedy/13.jpg",
+      "name": "1 + 1",
+      "description": "comedy, drama, 1 h 52 min France",
+      "id": "e044"
+    },
+    {
+      "img": "/comedy/14.jpg",
+      "name": "The Wolf of Wall Street",
+      "description": "biography, comedy, crime, 3hours USA",
+      "id": "d93e"
+    },
+    {
+      "img": "/comedy/15.jpg",
+      "name": "Gentlemen",
+      "description": "crime, comedy, action, 1 h 53 min UK, USA",
+      "id": "9eba"
+    },
+    {
+      "img": "/comedy/16.jpg",
+      "name": "Inglourious Basterds",
+      "description": "action, drama, comedy, 2 h 33 min Germany, USA",
+      "id": "9080"
+    },
+    {
+      "img": "/comedy/17.jpg",
+      "name": "Deadpool",
+      "description": "action, comedy, 1 h 48 min USA",
+      "id": "8be1"
+    },
+    {
+      "img": "/comedy/18.jpg",
+      "name": "Home alone",
+      "description": "comedy, family, 1 hour 43 min USA",
+      "id": "0fd2"
+    },
+    {
+      "img": "/comedy/19.jpg",
+      "name": "The Truman Show",
+      "description": "comedy, drama, 1 h 43 min USA ",
+      "id": "b6eb"
+    },
+    {
+      "img": "/comedy/20.jpg",
+      "name": "Ratatouille",
+      "description": "cartoon, adventure, comedy, 1 h 51 min USA ",
+      "id": "2cf9"
+    },
+    {
+      "img": "/comedy/21.jpg",
+      "name": "Sherlock Holmes",
+      "description": "action, thriller, drama, 2 h 8 min USA ",
+      "id": "fb14"
+    },
+    {
+      "img": "/comedy/22.jpg",
+      "name": "Thor: Ragnarok",
+      "description": "science fiction, fantasy, action, 2 h 10 min USA ",
+      "id": "17bd"
+    }
+  ],
+  "2": [
+    {
+      "img": "/fantasy/23.jpg",
+      "name": "The Dark Knight",
+      "description": "fantasy, action, thriller, 2 h 32 min USA, UK",
+      "id": "034d"
+    },
+    {
+      "img": "/fantasy/24.jpg",
+      "name": "Start",
+      "description": "fantasy, action, thriller, 2 h 28 min USA, UK",
+      "id": "a2aa"
+    },
+    {
+      "img": "/fantasy/25.jpg",
+      "name": "Interstellar",
+      "description": "fantasy, adventure, drama, 2 h 49 min UK, USA",
+      "id": "d544"
+    },
+    {
+      "img": "/fantasy/26.jpg",
+      "name": "Matrix",
+      "description": "fantasy, action, 2 h 16 min USA, Australia",
+      "id": "0a23"
+    },
+    {
+      "img": "/fantasy/27.jpg",
+      "name": "Avatar",
+      "description": "science fiction, action, drama, 2 h 42 min USA, UK",
+      "id": "42b0"
+    },
+    {
+      "img": "/fantasy/28.jpg",
+      "name": "Prestige",
+      "description": "fantasy, drama, detective, 2 h 10 min USA, UK",
+      "id": "4848"
+    },
+    {
+      "img": "/fantasy/29.jpg",
+      "name": "WALL E",
+      "description": "cartoon, fantasy, adventure, 1 h 38 min USA",
+      "id": "d604"
+    },
+    {
+      "img": "/fantasy/30.jpg",
+      "name": "Iron Man",
+      "description": "fantasy, action, adventure, 2 h 6 min USA, Canada",
+      "id": "db65"
+    },
+    {
+      "img": "/fantasy/31.jpg",
+      "name": "Dune",
+      "description": "fantasy, action, adventure, 2 h 35 min USA, Canada",
+      "id": "bc86"
+    },
+    {
+      "img": "/fantasy/32.jpg",
+      "name": "Martian",
+      "description": "fantasy, adventure, drama, 2 h 21 min USA, UK, Hungary",
+      "id": "4a63"
+    }
+  ],
+  "3": [
+    {
+      "img": "/drama/33.jpg",
+      "name": "Fight Club",
+      "description": "drama, 2 h 19 min USA, Germany",
+      "id": "beab"
+    },
+    {
+      "img": "/drama/34.jpg",
+      "name": "Forrest Gump",
+      "description": "drama, melodrama, 2 h 22 min USA",
+      "id": "984f"
+    },
+    {
+      "img": "/drama/35.jpg",
+      "name": "Pulp Fiction",
+      "description": "crime, drama, thriller, 2 h 34 min USA",
+      "id": "a48b"
+    },
+    {
+      "img": "/drama/36.jpg",
+      "name": "Breaking Bad",
+      "description": "drama, crime, thriller, 47 min USA",
+      "id": "04c1"
+    },
+    {
+      "img": "/drama/37.jpg",
+      "name": "Island of the Shuttered",
+      "description": "detective, drama, thriller, 2 h 18 min USA",
+      "id": "8abe"
+    },
+    {
+      "img": "/drama/38.jpg",
+      "name": "Godfather",
+      "description": "crime, drama, 2 h 55 min USA ",
+      "id": "9119"
+    },
+    {
+      "img": "/drama/39.jpg",
+      "name": "Gladiator",
+      "description": "action, adventure, drama, 2 h 35 min USA, UK, Malta",
+      "id": "05e8"
+    },
+    {
+      "img": "/drama/40.jpg",
+      "name": "Titanic",
+      "description": "drama, romance, 3 h 14 min USA, Mexico",
+      "id": "9877"
+    },
+    {
+      "img": "/drama/41.jpg",
+      "name": "Green Book",
+      "description": "biography, comedy, drama, 2 h 10 min USA, China",
+      "id": "2abf"
+    },
+    {
+      "img": "/drama/42.jpg",
+      "name": "Se7en",
+      "description": "detective, thriller, crime, 2 h 7 min USA",
+      "id": "7eb6"
+    }
+  ],
+  "4": [
+    {
+      "img": "/history/43.jpg",
+      "name": "Bunker",
+      "description": "biography, drama, history, 2 h 36 min Germany, Austria",
+      "id": "2751"
+    },
+    {
+      "img": "/history/44.jpg",
+      "name": "Survivor",
+      "description": "adventure, drama, history, 2 h 36 min USA, Hong Kong",
+      "id": "3fdd"
+    },
+    {
+      "img": "/history/45.jpg",
+      "name": "The King speaks!",
+      "description": "biography, drama, history, 1 h 58 min UK, USA",
+      "id": "0d85"
+    },
+    {
+      "img": "/history/46.jpg",
+      "name": "Oppenheimer",
+      "description": "biography, drama, history, 3 hours USA, UK",
+      "id": "de55"
+    },
+    {
+      "img": "/history/47.jpg",
+      "name": "Vikings",
+      "description": "action, adventure, drama, 45 min Ireland, Canada",
+      "id": "b639"
+    },
+    {
+      "img": "/history/48.jpg",
+      "name": "Dunkirk",
+      "description": "action, drama, history, 1 h 46 min UK, Netherlands, France",
+      "id": "0ca1"
+    },
+    {
+      "img": "/history/49.jpg",
+      "name": "Troy",
+      "description": "action, history, drama, 2 h 43 min USA, Bulgaria, UK",
+      "id": "4192"
+    },
+    {
+      "img": "/history/50.jpg",
+      "name": "Deepwater Horizon",
+      "description": "action, drama, history, 1 h 47 min USA, Hong Kong",
+      "id": "bd64"
+    },
+    {
+      "img": "/history/51.jpg",
+      "name": "Brothers in arms",
+      "description": "drama, history, war, 1 hour USA, UK",
+      "id": "fa1c"
+    },
+    {
+      "img": "/history/52.jpg",
+      "name": "Irishman",
+      "description": "crime, drama, thriller, 3 h 29 min USA",
+      "id": "1d19"
+    }
+  ],
+  "5": [
+    {
+      "img": "/horror/53.jpg",
+      "name": "Shine",
+      "description": "horror, drama, mysticism, 2 h 24 min USA, UK",
+      "id": "d8ac"
+    },
+    {
+      "img": "/horror/54.jpg",
+      "name": "I am a legend",
+      "description": "fantasy, horror, action, 1 hour 40 min USA, UK",
+      "id": "3988"
+    },
+    {
+      "img": "/horror/55.jpg",
+      "name": "World War Z",
+      "description": "fantasy, horror, action, 1 hour 56 min USA",
+      "id": "7fc6"
+    },
+    {
+      "img": "/horror/56.jpg",
+      "name": "It",
+      "description": "horror, fantasy, drama, 2 h 15 min USA, Canada",
+      "id": "d1f2"
+    },
+    {
+      "img": "/horror/57.jpg",
+      "name": "Aliens",
+      "description": "horror, fantasy, action, 2 h 17 min USA, UK",
+      "id": "f4a8"
+    },
+    {
+      "img": "/horror/58.jpg",
+      "name": "American Psycho",
+      "description": "horror, crime, drama, 1 hour 42 min USA",
+      "id": "442a"
+    },
+    {
+      "img": "/horror/59.jpg",
+      "name": "Split",
+      "description": "thriller, horror, 1 hour 57 min USA, Japan",
+      "id": "5517"
+    },
+    {
+      "img": "/horror/60.jpg",
+      "name": "Train to Busan",
+      "description": "horror, action, thriller, 1 h 58 min South Korea",
+      "id": "ded1"
+    },
+    {
+      "img": "/horror/61.jpg",
+      "name": "Spell",
+      "description": "horror, detective, mysticism, 1 hour 52 min USA",
+      "id": "268a"
+    },
+    {
+      "img": "/horror/62.jpg",
+      "name": "Some of us",
+      "description": "science fiction, horror, action, 50 min USA, Canada",
+      "id": "3b27"
+    }
+  ],
+  "FilmPageScrollItem": [
+    {
+      "img": "/FilmPageScrollItem/63.jpg",
+      "id": "8be5"
+    },
+    {
+      "img": "/FilmPageScrollItem/64.jpg",
+      "id": "8c2b"
+    },
+    {
+      "img": "/FilmPageScrollItem/65.jpg",
+      "id": "d9f2"
+    },
+    {
+      "img": "/FilmPageScrollItem/66.jpg",
+      "id": "4163"
+    },
+    {
+      "img": "/FilmPageScrollItem/67.jpg",
+      "id": "f1ea"
+    }
+  ],
+  "buttons": [
+    {
+      "body": "&#x1f37f; All",
+      "id": "e1e8"
+    },
+    {
+      "body": "&#x1F601; Comedy",
+      "id": "10b2"
+    },
+    {
+      "body": "&#129412; Fantasy",
+      "id": "0dda"
+    },
+    {
+      "body": "&#128546; Drama",
+      "id": "632f"
+    },
+    {
+      "body": "&#128215; History",
+      "id": "9603"
+    },
+    {
+      "body": "&#128563; Horror",
+      "id": "38ca"
+    }
+  ],
+  "view": [
+    {
+      "data": "Jun 22, 2023",
+      "body": "Resident Evil: Netflix take on the film adaptation of the clut horror game",
+      "img": "/view/1.jpg",
+      "id": "0a13"
+    },
+    {
+      "data": "Dec 19, 2023",
+      "body": "‘The Godfather: Part III’: THR’s 1990 Review",
+      "img": "/view/3.jpg",
+      "id": "31fa"
+    },
+    {
+      "data": "Oct 15, 1999",
+      "body": "It's only after we've lost everything that we're free to do anything.",
+      "img": "/view/4.jpg",
+      "id": "c707"
+    }
+  ],
+  "ScrollItem": [
+    {
+      "year": "2019",
+      "grade": "8.1",
+      "name": "Laundromat",
+      "img": "/ScrollItem/5.jpg",
+      "id": "2ce9"
+    },
+    {
+      "year": "2022",
+      "grade": "7.6",
+      "name": "Patients",
+      "img": "/ScrollItem/6.jpg",
+      "id": "76d0"
+    },
+    {
+      "year": "2019",
+      "grade": "8.0",
+      "name": "Joker",
+      "img": "/ScrollItem/7.jpg",
+      "id": "263b"
+    },
+    {
+      "year": "1999",
+      "grade": "9.0",
+      "name": "The Green Mile",
+      "img": "/ScrollItem/8.png",
+      "id": "89f0"
+    },
+    {
+      "year": "2009",
+      "grade": "8.1",
+      "name": "Inglourious Basterds",
+      "img": "/ScrollItem/9.jpg",
+      "id": "0047"
+    },
+    {
+      "year": "1994",
+      "grade": "8.6",
+      "name": "Léon",
+      "img": "/ScrollItem/10.jpg",
+      "id": "ba7e"
+    },
+    {
+      "year": "1985",
+      "grade": "8.7",
+      "name": "Back to the Future",
+      "img": "/ScrollItem/11.jpg",
+      "id": "1aa0"
+    },
+    {
+      "year": "1998",
+      "grade": "8.3",
+      "name": "Saving Private Ryan",
+      "img": "/ScrollItem/12.png",
+      "id": "796b"
+    }
+  ],
+  "Comments": [
+
+  ]
+}
